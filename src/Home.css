@@ -1,0 +1,13 @@
+.home__bg {
+    background-image: url(./Assets/images/bg.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+}
+
+li.nav__item{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
