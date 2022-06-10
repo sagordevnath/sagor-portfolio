@@ -1,0 +1,27 @@
+.details-img {
+    display: flex;
+    width: 100%;
+}
+.details-img img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.project__meta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.link a {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    .details-img {
+        flex-direction: column;
+    }
+    .details-img img {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

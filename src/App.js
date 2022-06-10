@@ -1,31 +1,40 @@
-// import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import About from './About';
 import './App.css';
 import Blog from './Blog';
 import Contact from './Contact';
 import Footer from './Footer';
 import Home from './Home';
-import Project from './Projects';
+import Projects from './Projects';
 import Services from './Services';
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import CareViewDetails from './CareViewDetails';
+import ManufacturerViewDetails from './ManufacturerViewDetails';
+import ToysViewDetails from './ToysViewDetails';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className='App'>
-      {/* <Routes>
+      <Navbar></Navbar>
+      <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/services' element={<Services />} />
-      </Routes> */}
-      <Home></Home>
+        <Route path='/manufacturerViewDetails' element={<ManufacturerViewDetails />} />
+        <Route path='/toysViewDetails' element={<ToysViewDetails />} />
+        <Route path='/careViewDetails' element={<CareViewDetails />} />
+      </Routes>
+      {/* <Home></Home>
       <About></About>
       <Services></Services>
-      <Project></Project>
+      <Project></Project> */}
       {/* <Blog></Blog> */}
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
       <Footer></Footer>      
       <ToastContainer />
     </div>

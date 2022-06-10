@@ -1,0 +1,25 @@
+[
+    {
+        "id" : "1",
+        "name" : "Ntah Manufactures",
+        "description": "A Manufacture website",
+        "usage": "React Js, Tailwind, Node Js, Express Js, MongoDB, Firebase, React Query, React hooks form, React Toastify, jsonwebtoken",
+        "image1": "https://i.ibb.co/1zM0brT/Capture.jpg",
+        "image2": "https://i.ibb.co/BPsf7GP/Capture1.jpg",
+        "image3": "https://i.ibb.co/WF0kbBk/Capture2.jpg",
+        "githubClient": "https://github.com/sagordevnath/nath-manufacturers-client",
+        "githubServer": "https://github.com/sagordevnath/nath-manufacturers-server",
+        "liveLink": "https://nath-manufacturing.web.app"
+
+    }
+    
+    
+]
+
+
+
+
+
+
+
+

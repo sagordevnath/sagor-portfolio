@@ -14,26 +14,20 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col__2">
-            <img src={aboutImg} alt="" className="about__img" />
+            <img style={{height: '500px'}} src={aboutImg} alt="" className="about__img" />
           </div>
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+                Hi there,
+                I am Sagor Devnath. I am a Junior Web developer and UI&UX designer. I have Business Administration tecnology. Web development an design is what I'm doing presently.
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+                I have experience with Tailwind CSS, React JS, Javascript, CSS3, HTML5 and Bootstrap. I have also experience with nodeJS, mongoDB, ExpressJS, Firebase, JWT and payment integration in website. So if you are intereste in having a website, a new design, a web design, Figma design and HTML&CSS design, the fell free to let me know and I will be happy to work with you.
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
+                Thanks
               </p>
               <div className="about__button d__flex align__items__center">                
                 <a href="#Contact">
