@@ -14,11 +14,11 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col__2">
-            <img style={{height: '500px'}} src={aboutImg} alt="" className="about__img" />
+            <img  data-aos="zoom-in-right" style={{height: '500px'}} src={aboutImg} alt="" className="about__img" />
           </div>
           <div className="col__2">
-            <h1 className="about__heading">About Me</h1>
-            <div className="about__meta">
+            <h1 data-aos="fade-down-left" className="about__heading">About Me</h1>
+            <div data-aos="flip-right" className="about__meta">
               <p className="about__text p__color">
                 Hi there,
                 I am Sagor Devnath. I am a Junior Web developer and UI&UX designer. I have Business Administration tecnology. Web development an design is what I'm doing presently.
@@ -31,7 +31,7 @@ function About() {
               </p>
               <div className="about__button d__flex align__items__center">                
                 <a href="#Contact">
-                  <button className="about btn pointer">Hire Me</button>
+                  <button data-aos="flip-right" className="about btn pointer">Hire Me</button>
                 </a>
               </div>
             </div>

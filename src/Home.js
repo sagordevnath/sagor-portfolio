@@ -22,10 +22,10 @@ function Home() {
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
-              <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
-              <h2 className="home__text pz__10">Hi, I’m Sagor Devnath</h2>
-              <h3 className="home__text sweet pz__10">Junior Web Developer.</h3>
-              <div className="about__button d__flex align__items__center">
+              <h1 data-aos="fade-up-left" data-aos="fade-in" className="home__text pz__10">WELCOME TO MY WORLD</h1>
+              <h2 data-aos="fade-right" className="home__text pz__10">Hi, I’m Sagor Devnath</h2>
+              <h3 data-aos="fade-right" className="home__text sweet pz__10">Junior Web Developer.</h3>
+              <div data-aos="flip-right" className="about__button d__flex align__items__center">
               <a href={resume} target="_blank" download>
                   <button className="about btn pointer">Resume</button>
                 </a>

@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import { useEffect} from 'react';
 import About from './About';
 import './App.css';
 import Blog from './Blog';
@@ -13,8 +14,15 @@ import CareViewDetails from './CareViewDetails';
 import ManufacturerViewDetails from './ManufacturerViewDetails';
 import ToysViewDetails from './ToysViewDetails';
 import Navbar from './Navbar';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(()=> {
+    AOS.init({
+      duration: 1500
+    });
+  },[])
   return (
     <div className='App'>
       <Navbar></Navbar>

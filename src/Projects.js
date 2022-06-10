@@ -9,16 +9,7 @@ import { useNavigate, Link } from "react-router-dom";
 // import Project5 from './Assets/images/portfolio-5.jpg';
 // import Project6 from './Assets/images/portfolio-6.jpg';
 function Project() {
-    const navigate = useNavigate();
-    const manufacturerViewDetails = () => {
-        navigate('/manufacturerViewDetails');
-    }
-    const toysViewDetails = () => {
-        navigate('/toysViewDetails');
-    }
-    const careViewDetails = () => {
-        navigate('/careViewDetails');
-    }
+    
   return (
     <div className="project component__space" id="Portfolio">
       <div className="heading">
@@ -41,7 +32,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Nath Manutacturers</h5>
                      <h4 className="project__text">A Manufacture website</h4>
-                     <Link onClick={manufacturerViewDetails} to="" className="project__btn">View details</Link>
+                     <Link to="/manufacturerViewDetails" className="project__btn">View details</Link>
                      </div>
                  </div>
              </div>
@@ -58,7 +49,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Nath Toys</h5>
                      <h4 className="project__text">A Warehouse management website</h4>
-                     <Link onClick={toysViewDetails} to="" className="project__btn">View details</Link>
+                     <Link to="/toysViewDetails" className="project__btn">View details</Link>
                      </div>
                  </div>
              </div>
@@ -75,7 +66,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Care Giver</h5>
                      <h4 className="project__text">An Independent service website</h4>
-                     <Link onClick={careViewDetails} to="" className="project__btn">View Details</Link>
+                     <Link to="/careViewDetails" className="project__btn">View Details</Link>
                      </div>
                  </div>
              </div>

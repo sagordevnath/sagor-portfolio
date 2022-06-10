@@ -22,7 +22,7 @@ function Services() {
 
       <div className="container">
         <div className="row">
-          <div className="col__3">
+          <div data-aos="zoom-in-down" className="col__3">
             <div className="service__box pointer">
               <div className="icon">
               <FaPenNib></FaPenNib>
@@ -38,7 +38,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="col__3">
+          <div data-aos="zoom-in-down" className="col__3">
             <div className="service__box pointer">
               <div className="icon">
                 <FaConnectdevelop></FaConnectdevelop>
@@ -54,7 +54,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="col__3">
+          <div data-aos="zoom-in-down" className="col__3">
             <div className="service__box pointer">
               <div className="icon">
                 <FaMobileAlt></FaMobileAlt>
@@ -69,7 +69,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="col__3">
+          <div data-aos="zoom-in-down" className="col__3">
             <div className="service__box pointer">
               <div className="icon">
               <svg
@@ -99,7 +99,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="col__3">
+          <div data-aos="zoom-in-down" className="col__3">
             <div className="service__box pointer">
               <div className="icon">
                 <FaSearch></FaSearch>
@@ -115,7 +115,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="col__3">
+          <div data-aos="zoom-in-down" className="col__3">
             <div className="service__box pointer">
               <div className="icon">
                 <FaPen></FaPen>
