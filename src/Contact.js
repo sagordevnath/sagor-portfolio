@@ -25,7 +25,7 @@ function Contact() {
             <div className="row">
                 <div className="col__2">
                     <div className="contact__box">
-                        <div className="contact__meta">
+                        <div data-aos="fade-right" className="contact__meta">
                             <h1 className="hire__text">Hire Me.</h1>
                             <p className="hire__text white">I am available for freelance work. Connect with me via phone:</p>
                            <p className="hire__text white"><strong>+8801710786364</strong> or email <strong>sagordevnath44@gmail.com</strong></p>
@@ -38,7 +38,9 @@ function Contact() {
                         </form>
                     </div>
                 </div>
-                <div className="col__2">
+                <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className="col__2">
                     <img style={{height: "500px"}} src={contactImg} alt="" className="contact__img" />
                 </div>
             </div>

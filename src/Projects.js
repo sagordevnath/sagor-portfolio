@@ -24,7 +24,9 @@ function Project() {
              <div className="col__3">
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
-                         <div className="project__img__box">
+                         <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className="project__img__box">
                              <img src={Project1} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
@@ -41,8 +43,8 @@ function Project() {
              <div className="col__3">
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
-                         <div className="project__img__box">
-                             <img src={Project2} alt="" className="project__img" />
+                         <div data-aos="zoom-out" data-aos-duration="2000" className="project__img__box">
+                             <img data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500" src={Project2} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
@@ -59,7 +61,9 @@ function Project() {
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
-                             <img src={Project3} alt="" className="project__img" />
+                             <img data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" src={Project3} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
