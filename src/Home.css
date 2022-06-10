@@ -47,6 +47,7 @@ h3.home__text{
     float: right;
     z-index: 1000;
     width: 100%;
+    visibility: hidden;
 }
 ul.sidebar.d__flex {
     flex-wrap: wrap;
@@ -70,6 +71,12 @@ li.sideNavbar{
  .navigation.pxy__30 {
         display: none;
     }
+
+    .toggle__menu {
+        visibility: visible;
+    }
+
+    
 h2.white.pz__10 {
     font-size: 50px!important;
 }
@@ -84,6 +91,9 @@ svg.bi.bi-justify.white.pointer {
 }
 h3.sweet.pz__10 {
     font-size: 40px;
+}
+.toggle__menu {
+    visibility: visible;
 }
 h1.home__text {
     font-size: 14px;

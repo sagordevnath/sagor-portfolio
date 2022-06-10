@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import "./Home.css";
 import logo from "./Assets/images/logo.png";
+import resume from "./Assets/resume/sagor_junior-web-developer_resume.pdf";
 
 function Home() {
   // fixed Header
@@ -9,7 +10,7 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu//
-   const [show, setShow] = useState(true);
+   const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -68,7 +69,7 @@ function Home() {
               <a href="#services">Services</a>
             </li>
             <li className="sideNavbar">
-              <a href="#portfolio">Portfolio</a>
+              <a href="#projects">Projects</a>
             </li>
             <li className="sideNavbar">
               <a href="#blog">Blog</a>
@@ -87,7 +88,11 @@ function Home() {
               <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
               <h2 className="home__text pz__10">Hi, I’m Sagor Devnath</h2>
               <h3 className="home__text sweet pz__10">Junior Web Developer.</h3>
-              <h4 className="home__text pz__10">based in USA.</h4>
+              <div className="about__button d__flex align__items__center">
+              <a href={resume} target="_blank" download>
+                  <button className="about btn pointer">Resume</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>

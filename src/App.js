@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
 import About from './About';
 import './App.css';
 import Blog from './Blog';
@@ -7,6 +7,8 @@ import Footer from './Footer';
 import Home from './Home';
 import Project from './Projects';
 import Services from './Services';
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -22,9 +24,10 @@ function App() {
       <About></About>
       <Services></Services>
       <Project></Project>
-      <Blog></Blog>
+      {/* <Blog></Blog> */}
       <Contact></Contact>
-      <Footer></Footer>
+      <Footer></Footer>      
+      <ToastContainer />
     </div>
   );
 }

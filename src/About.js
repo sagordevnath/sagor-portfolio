@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "./Assets/images/about.jpg";
-import resume from './Assets/resume/sagor_junior-web-developer_resume.pdf';
+
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
@@ -35,10 +35,7 @@ function About() {
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered in some form, by injected humour,
               </p>
-              <div className="about__button d__flex align__items__center">
-                <a href={resume} target="_blank" download>
-                  <button className="about btn pointer">Download Cv</button>
-                </a>
+              <div className="about__button d__flex align__items__center">                
                 <a href="#Contact">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
