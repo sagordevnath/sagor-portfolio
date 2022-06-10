@@ -15,7 +15,7 @@ function Home() {
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <img src={logo} alt="" />
+            <img width='60px' height='60px' src={logo} alt="" />
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
@@ -86,7 +86,7 @@ function Home() {
             <div className="home__meta">
               <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
               <h2 className="home__text pz__10">Hi, I’m Sagor Devnath</h2>
-              <h3 className="home__text sweet pz__10">JS Developer.</h3>
+              <h3 className="home__text sweet pz__10">Junior Web Developer.</h3>
               <h4 className="home__text pz__10">based in USA.</h4>
             </div>
           </div>

@@ -8,10 +8,10 @@ function Services() {
       <div className="heading">
         <h1 className="heading">My Awesome Service</h1>
         <p className="heading p__color">
-          There are many variations of passages of Lorem Ipsum available,
+        I believe in the power of recognition and empowerment leading to great employee engagement..
         </p>
         <p className="heading p__color">
-          but the majority have suffered alteration.
+        A brand for a company is like a reputation for a person.
         </p>
       </div>
 
@@ -36,7 +36,7 @@ function Services() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Business Stratagy</h1>
+                <h1 className="service__text">UX/UI Design</h1>
                 <p className="p service__text p__color">
                   I throw myself down among the
                 </p>
@@ -101,7 +101,7 @@ function Services() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Marketing & Reporting</h1>
+                <h1 className="service__text">Mobile App Development</h1>
                 <p className="p service__text p__color">
                   I throw myself down among the
                 </p>
@@ -133,7 +133,7 @@ function Services() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Mobile App Development</h1>
+                <h1 className="service__text">Team Management</h1>
                 <p className="p service__text p__color">
                   I throw myself down among the
                 </p>
@@ -166,7 +166,7 @@ function Services() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Marketing & Reporting</h1>
+                <h1 className="service__text">Search Engine Optimization</h1>
                 <p className="p service__text p__color">
                   I throw myself down among the
                 </p>
@@ -198,7 +198,7 @@ function Services() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Mobile App Development</h1>
+                <h1 className="service__text">Data Entry</h1>
                 <p className="p service__text p__color">
                   I throw myself down among the
                 </p>

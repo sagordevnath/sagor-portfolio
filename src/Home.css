@@ -1,6 +1,6 @@
 .home__bg{
     background-image: url(./Assets/images/bg.jpg);
-    background-color: #010101;
+    background-color: #11022e;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,13 +30,7 @@ h3.home__text{
     font-family: Montserrat,sans-serif;
     line-height: 40px;
 }
-h4.home__text{
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 40px;
-    font-family: Montserrat,sans-serif;
-    
-}
+
 .header{
     transition: .4s all ease;
 }

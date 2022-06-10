@@ -1,12 +1,14 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "./Assets/images/about.jpg";
+import resume from './Assets/resume/sagor_junior-web-developer_resume.pdf';
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
       const upToTop = document.querySelector("a.bottom__to__top");
        upToTop.classList.toggle("active", window.scrollY > 0)
     });
+    
   return (
     <div className="about component__space" id="About">
       <div className="container">
@@ -34,10 +36,10 @@ function About() {
                 but the majority have suffered in some form, by injected humour,
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="#">
+                <a href={resume} target="_blank" download>
                   <button className="about btn pointer">Download Cv</button>
                 </a>
-                <a href="#">
+                <a href="#Contact">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
               </div>
