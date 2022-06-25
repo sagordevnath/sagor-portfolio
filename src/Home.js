@@ -6,6 +6,7 @@ import Services from "./Services";
 import About from "./About";
 import Projects from './Projects';
 import Contact from "./Contact";
+import Typical from 'react-typical'
 
 function Home() {
   // fixed Header
@@ -24,7 +25,20 @@ function Home() {
             <div className="home__meta">
               <h1 data-aos="fade-up-left" data-aos="fade-in" className="home__text pz__10">WELCOME TO MY WORLD</h1>
               <h2 data-aos="fade-right" className="home__text pz__10">Hi, I’m Sagor Devnath</h2>
-              <h3 data-aos="fade-right" className="home__text sweet pz__10">Junior Web Developer.</h3>
+              <h3 data-aos="fade-right" className="home__text sweet pz__10">I'm a{' '}
+              <Typical
+              loop={Infinity}
+              wrapper='b'
+              steps={[
+                'Programmer',
+                1500,
+                'Developer',
+                1500,
+                'Designer',
+                1500,
+            ]}
+              />
+              </h3>
               <div data-aos="flip-right" className="about__button d__flex align__items__center">
               <a href={resume} target="_blank" download>
                   <button className="about btn pointer">Resume</button>
